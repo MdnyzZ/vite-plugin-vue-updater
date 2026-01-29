@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/vite-plugin-vue-updater/', 
   title: "Vue Updater",
   description: "Vue 3 项目的智能更新检测方案",
   themeConfig: {
