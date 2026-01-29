@@ -1,0 +1,18 @@
+node_modules
+dist
+.DS_Store
+*.local
+*.log
+
+# VitePress
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs
+*.njsproj
+*.sln
+*.sw?

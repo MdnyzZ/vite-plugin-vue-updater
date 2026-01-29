@@ -1,0 +1,51 @@
+{
+  "name": "vite-plugin-vue-updater",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Vue 3 + Vite auto-update solution with Element Plus integration",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "vue",
+    "vite",
+    "updater",
+    "auto-update",
+    "element-plus"
+  ],
+  "peerDependencies": {
+    "axios": ">=0.20.0",
+    "element-plus": ">=2.0.0",
+    "vite": ">=2.0.0",
+    "vue": ">=3.2.0"
+  },
+  "devDependencies": {
+    "axios": "^1.7.9",
+    "element-plus": "^2.9.4",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vite": "^6.0.0",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.27"
+  },
+  "author": "",
+  "license": "MIT"
+}
