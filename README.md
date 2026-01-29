@@ -12,14 +12,14 @@
   <a href="https://www.npmjs.com/package/vite-plugin-vue-updater">
     <img src="https://img.shields.io/npm/v/vite-plugin-vue-updater?color=42b883&label=" alt="NPM Version">
   </a>
-  <a href="https://github.com/your-name/vite-plugin-vue-updater">
-    <img src="https://img.shields.io/github/stars/your-name/vite-plugin-vue-updater?color=42b883&logo=github" alt="GitHub Stars">
+  <a href="https://github.com/MdnyzZ/vite-plugin-vue-updater">
+    <img src="https://img.shields.io/github/stars/MdnyzZ/vite-plugin-vue-updater?color=42b883&logo=github" alt="GitHub Stars">
   </a>
   <img src="https://img.shields.io/npm/l/vite-plugin-vue-updater?color=blue" alt="License">
 </p>
 
 <p align="center">
-  <a href="https://your-name.github.io/vite-plugin-vue-updater/">文档</a> &nbsp;|&nbsp; 
+  <a href="https://mdnyzz.github.io/vite-plugin-vue-updater/">文档</a> &nbsp;|&nbsp; 
   <a href="#installation">安装</a> &nbsp;|&nbsp; 
   <a href="#usage">快速开始</a>
 </p>
@@ -103,7 +103,7 @@ onUnmounted(() => {
 ```
 
 📚 详细文档
-请访问 官方文档 查看完整的配置项和高级用法。
+请访问 <a href="https://mdnyzz.github.io/vite-plugin-vue-updater/">官方文档</a> 查看完整的配置项和高级用法。
 
 📄 License
 MIT.
