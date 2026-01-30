@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       { text: '指南', link: '/guide/getting-started' },
       { text: '配置', link: '/guide/configuration' },
-      { text: 'GitHub', link: 'https://github.com/your-name/vite-plugin-vue-updater' }
+      { text: 'GitHub', link: 'https://github.com/MdnyzZ/vite-plugin-vue-updater' }
     ],
 
     // 侧边栏
@@ -32,13 +32,13 @@ export default defineConfig({
 
     // 社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-name/vite-plugin-vue-updater' }
+      { icon: 'github', link: 'https://github.com/MdnyzZ/vite-plugin-vue-updater' }
     ],
 
     // 页脚
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present Your Name'
+      copyright: 'Copyright © 2024-present MdnyzZ'
     },
     
     // 搜索配置 (可选)
